@@ -9,3 +9,8 @@ There will be a maximum of 3 guesses allowed
 
 expectedUsername = "systemadmin"
 expectedPassword = "master"
+a=str(input("Enter the user's name: "))
+if a==expectedUsername:
+    b=str(input("Enter the user's password: "))
+    if b==expectedPassword:
+        print("")
